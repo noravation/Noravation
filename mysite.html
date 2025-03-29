@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noravation - Full Stack Development & App Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Noravation</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Your One-Stop Solution for Web & App Development</h1>
+            <p>Providing exceptional development services to bring your ideas to life.</p>
+            <button id="get-started-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Modal Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Let's Get Started!</h2>
+            <p>We’re excited to help you with your project. Please fill out the form below, and we’ll be in touch with you shortly.</p>
+            <button id="close-popup-btn">Close</button>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Noravation, we specialize in full stack development and mobile app development, ensuring that your business thrives in the digital world. Our expert developers are here to deliver seamless, high-performance solutions for your needs.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Full Stack Development</h3>
+                <p>Complete solutions for front-end and back-end development.</p>
+            </div>
+            <div class="service">
+                <h3>App Development</h3>
+                <p>Creating high-quality apps for iOS and Android platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're ready to start your next project or have questions, don't hesitate to reach out. Let's build something amazing together!</p>
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Noravation. All Rights Reserved.</p>
+            <ul>
+                <li><a href="https://www.instagram.com/noravation/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; height: 24px; margin-right: 8px;">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
